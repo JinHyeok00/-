@@ -1,6 +1,6 @@
-package com.app.springDoc.repository;
+package com.app.swagger.repository;
 
-import com.app.springDoc.entity.MemberEntity;
+import com.app.swagger.entity.MemberEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

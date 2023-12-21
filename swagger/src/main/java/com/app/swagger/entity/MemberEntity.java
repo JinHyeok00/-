@@ -1,6 +1,6 @@
-package com.app.springDoc.entity;
+package com.app.swagger.entity;
 
-import com.app.springDoc.dto.MemberDTO;
+import com.app.swagger.dto.MemberDTO;
 import lombok.Getter;
 import lombok.Setter;
 

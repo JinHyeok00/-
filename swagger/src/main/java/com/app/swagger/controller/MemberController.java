@@ -1,7 +1,7 @@
-package com.app.springDoc.controller;
+package com.app.swagger.controller;
 
-import com.app.springDoc.dto.MemberDTO;
-import com.app.springDoc.service.MemberService;
+import com.app.swagger.dto.MemberDTO;
+import com.app.swagger.service.MemberService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.Parameters;

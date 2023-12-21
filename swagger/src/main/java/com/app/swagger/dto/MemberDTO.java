@@ -1,6 +1,6 @@
-package com.app.springDoc.dto;
+package com.app.swagger.dto;
 
-import com.app.springDoc.entity.MemberEntity;
+import com.app.swagger.entity.MemberEntity;
 import lombok.*;
 
 // private로 만들기 때문에 Getter, Setter 가 필요하다

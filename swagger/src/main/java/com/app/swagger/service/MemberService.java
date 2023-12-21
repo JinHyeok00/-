@@ -1,8 +1,8 @@
-package com.app.springDoc.service;
+package com.app.swagger.service;
 
-import com.app.springDoc.dto.MemberDTO;
-import com.app.springDoc.entity.MemberEntity;
-import com.app.springDoc.repository.MemberRepository;
+import com.app.swagger.dto.MemberDTO;
+import com.app.swagger.entity.MemberEntity;
+import com.app.swagger.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
