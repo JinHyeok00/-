@@ -27,12 +27,6 @@ public class MemberController {
     private final MemberService memberService;
 
     @Operation(summary = "회원 찾기", description = "id값으로 회원 찾기")
-    @ApiResponses({
-            @ApiResponse(responseCode = "200", description = "OK", content = @Content(schema = @Schema(implementation = MemberDTO.class))),
-            @ApiResponse(responseCode = "400", description = "BAD REQUEST"),
-            @ApiResponse(responseCode = "404", description = "NOT FOUND"),
-            @ApiResponse(responseCode = "500", description = "INTERNAL SERVER ERROR")
-    })
     @Parameters({
             @Parameter(name = "id", description = "id", example = "1"),
     })
